@@ -1,5 +1,7 @@
 # imp_commd
 Useful commands 
+
+- Cellpose training
 ```
 python -m cellpose\
  --train --use_gpu\
@@ -11,7 +13,7 @@ python -m cellpose\
  --learning_rate 0.1\
  --img_filter images --mask_filter masks
 ```
-- Showing all running jobs
+c
 ```
 squeue -u $USER -Su -o '%.10M %8i %20j %4t %5D %20R  %3C %7m %11l %11L'
 ```
