@@ -22,6 +22,3 @@ squeue -u $USER -Su -o '%.10M %8i %20j %4t %5D %20R  %3C %7m %11l %11L'
 wget -r --http-user=USERNAME --http-passwd='PASSWORD' --accept=gz link
 wget -r --http-user=test --http-passwd='TEST' --accept=gz https://...
 ```
-- kex_exchange_identification: Connection closed by remote host
-- Error: Connection closed by 134.61.193.179 port 22
-- Solution: ... just Try again LOL
