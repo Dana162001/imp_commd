@@ -19,5 +19,7 @@ export CONDA_ROOT=$HOME/miniconda3
 . $CONDA_ROOT/etc/profile.d/conda.sh
 export PATH="$CONDA_ROOT/bin:$PATH"
 
+
+export LD_LIBRARY_PATH=$HOME/miniconda3/envs/scrna/lib:$LD_LIBRARY_PATH #to avoid ImportError: /cvmfs/software.hpc.rwth.de/Linux/RH8/x86_64/intel/sapphirerapids/software/GCCcore/11.3.0/lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found 
 source activate .../conda_env
 python path_to_the/script.py
