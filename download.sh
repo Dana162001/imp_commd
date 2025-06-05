@@ -24,5 +24,5 @@
 OUTPUT_DIR="/hpcwork/rwth1209/data/scRNA/Flex/FASTQS_and_BCL/240811_VE30_001000000000808720/FASTQ"
 
 # Your wget command with the -P option to specify the output directory
-wget -r --http-user=kuenstler --http-passwd='8fvIP7vnx8EQ' --accept=gz -P "$OUTPUT_DIR" https://genomics.rwth-aachen.de/data/240808_Kuenstler_Costa_CompGenomics_scRNAseq/FASTQ/mkfastq/outs/fastq_path/HWTNFDMXY/
+wget -r --http-user=your_id --http-passwd='YOUR_PASS' --accept=gz -P "$OUTPUT_DIR" https://genomics.rwth-aachen.de/data/240808_Kuenstler_Costa_CompGenomics_scRNAseq/FASTQ/mkfastq/outs/fastq_path/HWTNFDMXY/
 
